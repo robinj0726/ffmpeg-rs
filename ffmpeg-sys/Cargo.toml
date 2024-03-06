@@ -1,0 +1,20 @@
+[package]
+name = "ffmpeg-sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Add your dependencies here
+
+[build-dependencies]
+# Add your build dependencies here
+bindgen = "0.69.4"
+
+[lib]
+# Add your library configuration here
+
+[profile.dev]
+# Add your development profile configuration here
+
+[profile.release]
+# Add your release profile configuration here
